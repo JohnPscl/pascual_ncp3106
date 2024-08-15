@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta 
+        charset="utf-8"> <!--Ensure Characters are displayed correctly-->
+
+
+        <link rel="icon" href="site-logo.ico" type="image/x-icon">
+        
+        <title>
+            John Paul Pascual's Bionote
+        </title>
+
+        <style> 
+
+            /*Font Styles*/
+            @font-face {
+                font-family: 'Poppins';
+                src: url('Poppins-Regular.ttf') format(truetype);
+                
+            }
+
+            @font-face {
+                font-family: 'Poppins Bold';
+                src: url('Poppins-Bold.ttf') format(truetype);
+            }
+
+            @font-face {
+                font-family: 'Dela Gothic One';
+                src: url('DelaGothicOne-Regular.ttf') format(truetype);
+            }
+
+            /*Class*/
+            body {
+                margin: 0;
+                padding: 0;
+                background-color: #212A37;
+            }
+                 
+            .container {
+            max-width: 100%; /* Full width of the viewport */
+            padding: 0;
+            }
+
+            .section {
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box; /* Include padding and border in element's total width and height */
+            }
+
+            .logo-container {
+                display: flex;
+                height: 60px;
+                background-color: rgba(52, 77, 125, 0.1);
+            }
+
+            .logo-img {
+                width: 90px;
+                height: 90px;
+
+            }
+
+            .intro-container {
+                display: flex;
+                height: 750px;
+                box-sizing: border-box;
+                background: radial-gradient(circle at bottom,     
+                rgba(234, 219, 194, 0.25) 0%, 
+                rgba(52, 77, 125, 0.1) 45%);
+            }
+
+            .intro-text {
+                text-align:center;
+                color: #EADBC2;
+                font-weight: 400;
+                margin-top: 30px;
+                margin-left: 10px;
+                font-family: 'Dela Gothic One', sans-serif;
+                text-align: center;
+                font-size: 97px;
+
+            }
+
+            .intro-sub {
+                text-align:center;
+                color: #EADBC2;
+                font-weight: 400;
+                margin-top: -100px;
+                margin-left: -10px;
+                font-family: 'Poppins', sans-serif;
+                text-align: center;
+                font-size: 30px;
+            }
+
+            .bio-container {
+                display: flex;
+                padding: 0px;
+                height: 870px;
+                box-sizing: border-box;
+                background: radial-gradient(circle at top, 
+                rgba(234, 219, 194, 0.25) 0%, 
+                rgba(52, 77, 125, 0.1) 42%);
+            }
+            
+            .my-image {
+                width: 580px;
+                height: 150px;
+                margin: 0.5%;
+
+                
+            }
+
+            .bio-text {
+                margin-left: 30px;
+                margin-top: -35px;
+                color: #EADBC2;
+                font-weight: 400;
+            }
+
+            .social-container {
+                display: flex;
+                padding: 0px;
+                height: 180px;
+                box-sizing: border-box;
+                background-color: #3D5063;
+
+            }
+
+            .social-logo {
+                width: 15px;
+                height: 15px;
+                margin-top: 40px;
+
+            }
+            .logo-caption {
+                font-family: 'Poppins', sans-serif;
+                font-size: 17px;
+            }
+
+            .hover-logo:hover + .logo-caption {
+                text-decoration: underline;
+            }
+
+            .span {
+                font-family: 'Poppins', sans-serif;
+                display:block
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <div class="container">
+            <!--Logo Section-->
+            <section class="logo-container"
+            style="border-bottom: 3px solid #EADBC2;">
+                <figure class="logo-img">
+                    <img src="main-logo.png" alt="JP Logo"
+                    height="65px"
+                    style="margin-left: 20px;
+                    margin-top: 10px;">
+                </figure>
+            </section>
+
+            <!--Intro Section-->
+            <section class="intro-container">
+                    <div class="intro-text">
+                        <p>
+                            Hello! Discover the Moments That Define Me
+                        </p>
+                        <p class="intro-sub">
+                            Dive into the key events and achievements that have marked my life’s story. 
+                            Discover the experiences that have influenced my journey and fueled my passions.
+                        </p>
+                    </div>
+            </section>
+            
+            <!--Bio Section-->
+            <section class="bio-container">
+                <figure class="my-image">
+                    <img src="my-image.JPG" alt="John Paul Porfile"
+                    style="
+                    height: 730px;
+                    margin-left: 10px;
+                    margin-top: 53px;
+                    box-shadow:#EADBC2;
+                    border-radius: 20%;">
+                </figure>
+
+                <div class="bio-text" 
+                style="font-family: 'Dela Gothic One', sans-serif; 
+                font-weight: 400; 
+                font-size: 65px; 
+                line-height: 110px;">
+                    
+                    <h1 style="letter-spacing: 0.2cm;">
+                        JOHN PAUL
+                        <br> 
+                        PASCUAL    
+                    </h1>
+
+                    <h2 style="font-size: 30px; 
+                    line-height: 0.7; 
+                    margin-top: -70px; 
+                    letter-spacing: 0.1em;">
+                    4TH-YEAR COMPUTER ENGINEERING
+                    </h2>
+
+                    <!--Bionote-->
+                    <span><p style="font-family: 'Poppins', sans-serif;
+                    font-size: 24px;
+                    font-weight: 100;
+                    text-align: justify;
+                    margin-right: 60px;
+                    margin-top: 20px;
+                    line-height: 125%;
+                    word-spacing: 0.17cm;">
+                    
+                    is a 4th-year BS Computer Engineering student at the University of the East. 
+                    Recognized as 1st Semester Academic Achiever in the School Year 2021-2022 during the Mechanical Engineering program 
+                    and 2nd Semester Academic Achiever in the School Year 2023-2024 in the Computer Engineering program, 
+                    he demonstrates strong academic performance. As the Vice President for Internal Affairs in the Society for 
+                    Computer Engineering Students, John Paul showcases his leadership, teamwork, and trustworthiness.
+                    his goal of becoming a successful entrepreneur, alongside pursuing opportunities in technology.
+                    <br><br>
+                    John Paul has participated in several projects and has experience in Python. In his free time, he enjoys 
+                    watching anime, which fuels his creativity and passion for technology. John Paul aspires to achieve 
+                    </p></span>
+                    </h3>
+                </div>
+            </section>
+
+            <!--Socials Section-->
+            <section class="social-container">
+                <!--<h1 style="font-family: 'Poppins Bold', sans-serif;
+                margin-top: 10px;
+                margin-left: 30px;
+                font-size: 25px;
+                color: #EADBC2;">
+                    Get in touch</h1>-->
+
+                <!--Facebook Logo-->
+                <figure class="social-logo" style="position: relative;">
+                    
+                    <a href="https://www.facebook.com/johnp.pscl">
+                    
+                    <img src="fb.jpg" alt="fb logo" 
+                    style="height: 60px;
+                    margin-left: 525px;
+                    border-radius: 30%;
+                    cursor: pointer;"
+                    class="hover-logo">
+                    </a>
+
+                </figure>
+                
+                <!--X Logo-->
+                <figure class="social-logo" style="position: relative;">
+                    
+                    <a href="https://x.com/Jaaampoooong">
+                    
+                    <img src="x logo.png" alt="X logo" 
+                    style="height: 60px;
+                    margin-left: 600px;
+                    border-radius: 30%;
+                    cursor: pointer;"
+                    class="hover-logo">
+                    </a>
+
+                </figure>
+                <!--Email Logo-->
+                <figure class="social-logo" style="position: relative;">
+                    <!--Remember to add mailto: to send email-->
+                    <a href="mailto:johnpaulpascual114@gmail.com">
+                    
+                    <img src="email.png" alt="gmail logo" 
+                    style="height: 60px;
+                    margin-left: 675px;
+                    border-radius: 30%;
+                    cursor: pointer;"
+                    class="hover-logo">
+                    </a>
+                
+                </figure>
+            </section>
+        </div>
+    </body>
+
+</html>
